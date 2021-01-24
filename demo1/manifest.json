@@ -14,6 +14,9 @@
         "48":"img/icon.png",
         "128":"img/icon.png"
     },
+    "background":{
+
+    },
     "permissions": [
         "activeTab",
         "storage"
