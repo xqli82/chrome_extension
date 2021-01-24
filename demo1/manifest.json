@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "第一个扩展应用",
+    "description": "扩展应用demo1",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_popup": "popup.html",
+        "default_title": "click here!"
+    },
+    "icon":{
+        "16":"img/icon.png",
+        "48":"img/icon.png",
+        "128":"img/icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
